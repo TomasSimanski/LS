@@ -1,0 +1,155 @@
+.container{
+    margin-top: 50px;}
+.login{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;}
+.login .login-form{
+    max-width: 400px;
+    text-align: center;
+    padding: 25px;
+    background-color: #9fcdff;
+    border-radius: 15px;}
+.login .login-form span{
+    font-size: 24pt;
+    font-weight: bold;}
+.login .login-form input{
+    text-align: center;
+    width: 100%;
+    background: #ebebeb;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 10px 25px;
+    margin: 10px 0px;}
+.login .login-form input[type=submit]{
+    background: #85befd}
+.login .login-form input[type=submit]:hover, .login .login-form input[type=submit]:focus{
+    background: #6eabff}
+.login .login-form a{
+    color: #5a5a5a;
+    font-size: 14pt;
+    font-weight: bold;
+    text-decoration: none;}
+.login .login-form a:hover, .login .login-form a:focus{
+    color: #000000;}
+
+.registration{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;}
+.registration .registration-form{
+    max-width: 400px;
+    text-align: center;
+    padding: 25px;
+    background-color: #9fcdff;
+    border-radius: 15px;}
+.registration .registration-form span{
+    font-size: 24pt;
+    font-weight: bold;}
+.registration .registration-form input{
+    text-align: center;
+    width: 100%;
+    background: #ebebeb;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 10px 25px;
+    margin: 10px 0px;}
+.registration .registration-form input[type=submit]{
+    background: #85befd}
+.registration .registration-form input[type=submit]:hover, .registration .registration-form input[type=submit]:focus{
+    background: #6eabff}
+.registration .registration-form a{
+    color: #5a5a5a;
+    font-size: 14pt;
+    font-weight: bold;
+    text-decoration: none;}
+.registration .registration-form a:hover, .registration .registration-form a:focus{
+    color: #000000;}
+
+.file-upload {
+    position: relative;
+    overflow: hidden;
+    max-width: 200px;
+    height: 40px;
+    background: #9fcdff;
+    border-radius: 3px;
+    padding: 8px 4px;
+    color: #fff;
+    text-align: center;}
+.file-upload:hover {
+    background: #6eabff;}
+.file-upload input[type="file"]{
+    display: none;}
+.file-upload label {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;}
+.file-upload span {
+    line-height: 36px;}
+.filename {
+    background: #fff;
+    border: 0;}
+
+.filetable {
+    font-family: "Times New Roman", Times, serif;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    border-collapse: collapse;}
+.filetable td, .filetable th {
+    border: 1px solid #FFFFFF;
+    padding: 5px 10px;}
+.filetable tbody td {
+    font-size: 16px;}
+.filetable tr:nth-child(even) {
+    background: #D0E4F5;}
+.filetable thead {
+    background: #0B6FA4;
+    border-bottom: 5px solid #FFFFFF;}
+.filetable thead th {
+    font-size: 17px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border-left: 2px solid #FFFFFF;}
+.filetable thead th:first-child {
+    border-left: none;}
+.btn {
+    background: #0e7ec9;
+    background-image: -webkit-linear-gradient(top, #0e7ec9, #4ea8e0);
+    background-image: -moz-linear-gradient(top, #0e7ec9, #4ea8e0);
+    background-image: -ms-linear-gradient(top, #0e7ec9, #4ea8e0);
+    background-image: -o-linear-gradient(top, #0e7ec9, #4ea8e0);
+    background-image: linear-gradient(to bottom, #0e7ec9, #4ea8e0);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;}
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;}
+.file_upload{
+    position: relative;
+    overflow: hidden;
+    font-size: 1em;        /* example */
+    height: 2em;           /* example */
+    line-height: 2em       /* the same as height */
+}
